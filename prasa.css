@@ -1,0 +1,46 @@
+.container{
+    width: 100%;
+    height: 800px;
+}
+.blackContainer{
+    height: 217px;
+    width: 100%;
+    background-color: #1D1E20;
+    padding-top: 60px;
+}
+.blackLeft{
+    height: 100px;
+    width: 30%;
+    display: inline-block;
+    color: white;
+}
+.blackRight{
+    height: 100px;
+    width: 69%;
+    display: inline-block;
+    color: white;
+}
+.subject{
+    text-align: center;
+    margin-top: 50px;
+}
+.subject p{
+    font-size: 30px;
+    color: red;
+}
+
+.mentors{
+    height: 300px;
+    width: 70%;
+    margin: auto;
+
+}
+.mentorDetails{
+    width: 18%;
+    height: 300px;
+    display: inline-block;
+}
+
+.mentorDetails p{
+    font-size: 18px;
+}

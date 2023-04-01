@@ -1,0 +1,51 @@
+@keyframes tomandjerry {
+    from{
+        left: 0;
+    }
+    to{
+        left: 300px;
+    }
+}
+
+.myanimation{
+    animation-name: tomandjerry;
+    /* position: relative;
+    animation-duration: 10s; */
+}
+
+.btn{
+    height: 100px;
+    width: 200px;
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 10px;
+    background-color: red;
+    color: #fff;
+    cursor: pointer;
+}
+
+.btn:hover{
+    height: 50px;
+    width: 100px; 
+    background-color: black;
+    cursor: pointer;
+}
+
+.fb{
+    background-image: url(socialmedia.png);
+    height: 20px;
+    width: 20px;
+}
+
+.ig{
+    height: 200px;
+    width: 200px;
+    border: 1px solid;
+}
+
+@media only screen and (min-width:300px) and (max-width:600px) {
+    .btn{
+        height: 50px;
+        width: 100px;
+    }
+}

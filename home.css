@@ -1,0 +1,125 @@
+h2{
+    color: cornsilk;
+}
+ ol{
+    list-style:lower-alpha;
+}
+ul{
+    list-style:lower-alpha;
+}
+
+body{
+    /* background-image: url(https://cdn.pixabay.com/photo/2011/09/27/18/52/bird-9950_960_720.jpg); */
+    background-repeat: no-repeat;
+background-size: cover;
+
+}
+table{
+    border-collapse: collapse;
+}
+.home{
+    font-size: 20px;
+}
+#about{
+    font-size: 30px;
+}
+nav a{
+    text-decoration: none;
+    color: black;
+}
+nav{
+    background-color: crimson;
+    padding: 20px;
+    margin: 20px;
+   
+}
+.div{
+    box-shadow: 5px 5px 5px seagreen;
+}
+a:hover{
+    background-color: deeppink;
+    font-size:25px;
+    text-decoration: none;
+
+}
+div .re{
+    position: relative;
+    height: 500px;
+    width: 700px;
+   
+}
+div .ab{
+    position: absolute;
+    height: 200px;
+    width:300;
+    display: inline-block;
+}
+
+.re img{
+    
+    height: 500px;
+    width: 500px;
+   
+}
+.ab img{
+  
+    height: 200px;
+    width: 200px;
+   
+}
+#grad{
+    height: 200px;
+    background-image: linear-gradient(red 40%,green 60%,blue 55%);
+}
+#grad1{
+    height: 200px;
+    background-image: radial-gradient(red,green,blue);
+}
+#grad2{
+    height: 200px;
+    background-image:conic-gradient(red,green,blue)
+}
+.flex-container{
+    flex-direction: row-reverse;
+    background-color: aqua;
+    display: flex;
+    flex-wrap: wrap;
+}
+.flex-container div{
+    padding: 20px;
+    background-color: darkgrey;
+    margin:10px;
+    font-size: 25px;
+}
+li:nth-child(2){
+    background-color: aqua;
+}
+li:first-child{
+    color: blue;
+}
+p::first-line{
+    color: blueviolet;
+}
+p::before{
+    content: "hai -";
+}
+p::after{
+    content: "-welcome";
+}
+.ani{
+    animation-name: ex;
+    animation-duration: 4S;
+    background-color: coral;
+    width: 200px;
+    height: 200px;
+    position: relative;
+    animation-delay: 3s;
+
+}
+@keyframes ex{
+    0%   {background-color:coral; left:0px; top:0px;}
+  25%  {background-color:yellow; left:200px; top:0px;}
+  50%  {background-color:blue; left:200px; top:200px;}
+  75%  {background-color:green; left:0px; top:200px;}
+  100% {background-color:red; left:0px; top:0px;}
+}
